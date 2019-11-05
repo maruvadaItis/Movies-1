@@ -5,19 +5,19 @@
  RavindraMeduri.pythonanywhere.com
  
  
-Setup on PythonAnywhere
-Create an account on PythonAnywhere
-Open up a bash console
-Type in mkvirtualenv and name the environment as "flaskapp" including python version
-Install all libraries which are dependent to run the application
-Type in the console git init
-Type in the console git clone https://github.com/RavindraMeduri/Movies.git
-Exit the terminal, and go to the "Web" tab to create a new web app
-change the virtualenv to /home/RavindraMeduri/.virtualenvs/flaskapp
-Create a "Manual" web app (not "Flask" webapp) with Python 3.7
-Set "Source code" and "Working directory" to be /home/yourname/
-Open the WSGI configuration file,uncomment the relevant parts under the heading "Flask". Change the last line to from app import app as application, as currently the name of our main file is app.py
-Reload the web app, and it should be available at https://yourname.pythonanywhere.com
+1.Setup on PythonAnywhere
+2.Create an account on PythonAnywhere
+3.Open up a bash console
+4.Type in mkvirtualenv and name the environment as "flaskapp" including python version
+5.Install all libraries which are dependent to run the application
+6.Type in the console git init
+7.Type in the console git clone https://github.com/RavindraMeduri/Movies.git
+8.Exit the terminal, and go to the "Web" tab to create a new web app
+9.change the virtualenv to /home/RavindraMeduri/.virtualenvs/flaskapp
+10.Create a "Manual" web app (not "Flask" webapp) with Python 3.7
+11.Set "Source code" and "Working directory" to be /home/yourname/
+12.Open the WSGI configuration file,uncomment the relevant parts under the heading "Flask". Change the last line to from app import app as application, as currently the name of our main file is app.py
+13.Reload the web app, and it should be available at https://yourname.pythonanywhere.com
 
 Setup on localhost
 //Create a repository using github desktop
